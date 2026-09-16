@@ -1,0 +1,19 @@
+{
+  "name": "gift-sites",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Personal gift websites. Static, free, zero-maintenance.",
+  "scripts": {
+    "harvest": "node _engine/harvest.mjs",
+    "images": "node _engine/images.mjs",
+    "build": "node _engine/build.mjs",
+    "og": "node _engine/og.mjs",
+    "serve": "node _engine/serve.mjs",
+    "verify": "node _engine/verify.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0",
+    "sharp": "^0.35.4"
+  }
+}

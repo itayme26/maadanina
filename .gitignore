@@ -1,0 +1,19 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.wrangler/
+dist/
+_engine/.tmp/
+*.log
+
+# Working notes — mine, not part of the gift, and not for a public repo.
+PROGRESS.md
+_handover/
+
+# Original photography: 14MB of source files the published site never uses.
+# The provenance records below are kept; the binaries stay local.
+_incoming/*/wolt/*
+!_incoming/*/wolt/manifest.json
+_incoming/*/google/*
+!_incoming/*/google/sources.json

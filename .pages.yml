@@ -1,0 +1,177 @@
+# Pages CMS — the visual editor behind pagescms.org.
+# The owner signs in with GitHub and gets the form below; they never see code.
+# Saving writes to content/site.json, which Cloudflare Pages rebuilds from.
+# Everything here is labelled in Hebrew because the people editing it are.
+
+media:
+  - name: photos
+    label: תמונות
+    input: sites/maadanina/assets/img/uploads
+    output: /assets/img/uploads
+    categories: [image]
+
+content:
+  - name: maadanina
+    label: מעדנינה — תוכן האתר
+    path: sites/maadanina/content/site.json
+    type: file
+    format: json
+    fields:
+      - name: brand
+        label: השם והסלוגן
+        type: object
+        fields:
+          - { name: name, label: שם העסק, type: string }
+          - { name: nameVocalized, label: השם עם ניקוד (מופיע בגדול באתר), type: string }
+          - { name: nameLatin, label: השם באנגלית, type: string }
+          - { name: tagline, label: שורת התיאור הקצרה, type: string }
+          - { name: kosher, label: תווית כשרות, type: string }
+          - { name: kosherNote, label: הערת כשרות, type: string }
+
+      - name: hero
+        label: המסך הראשון
+        type: object
+        fields:
+          - name: image
+            label: תמונת הרקע הגדולה
+            type: image
+            description: אפשר להשאיר כמו שהוא, או להעלות תמונה חדשה
+          - { name: eyebrow, label: השורה הקטנה מעל, type: string }
+          - { name: headline, label: השם הגדול, type: string }
+          - { name: tagline, label: שורת התיאור, type: string }
+          - { name: scrollCue, label: 'המילה שמזמינה לגלול (למשל: גללו)', type: string }
+
+      - name: intro
+        label: פסקת הפתיחה
+        type: object
+        fields:
+          - { name: statement, label: המשפט הגדול, type: text }
+          - { name: body, label: פסקת ההסבר, type: text }
+          - { name: ratingValue, label: 'ציון בגוגל (למשל 4.6)', type: string }
+          - { name: ratingCount, label: כמה ביקורות, type: string }
+          - { name: ratingLabel, label: 'מאיפה הדירוג (למשל: בגוגל)', type: string }
+
+      - name: counter
+        label: הדלפק
+        type: object
+        fields:
+          - { name: title, label: כותרת קטנה, type: string }
+          - { name: body, label: הטקסט, type: text }
+          - { name: image, label: תמונה רחבה, type: image }
+          - { name: detailImage, label: תמונת תקריב, type: image }
+          - { name: detailCaption, label: כיתוב מתחת לתקריב, type: string }
+
+      - name: table
+        label: על השולחן
+        type: object
+        fields:
+          - { name: title, label: כותרת קטנה, type: string }
+          - { name: body, label: הטקסט, type: text }
+          - { name: images, label: שתי תמונות, type: image, list: { min: 2, max: 2 } }
+
+      - name: categories
+        label: המחלקות בחנות
+        type: string
+        list: true
+        description: כל שורה היא מחלקה אחת. אפשר להוסיף, למחוק ולגרור כדי לסדר מחדש.
+
+      - name: bestsellers
+        label: המוצרים הכי מבוקשים
+        type: object
+        fields:
+          - { name: title, label: כותרת, type: string }
+          - { name: note, label: שורה קטנה מעל הכותרת, type: string }
+          - name: items
+            label: הפריטים
+            type: object
+            list: true
+            fields:
+              - { name: name, label: שם הפריט, type: string }
+              - { name: unit, label: 'משקל או כמות (אפשר להשאיר ריק)', type: string }
+
+      - name: shelf
+        label: כותרת אזור המוצרים
+        type: object
+        fields:
+          - { name: title, label: כותרת קטנה, type: string }
+          - { name: note, label: הערה על המחירים, type: string }
+
+      - name: visit
+        label: כתובת ושעות פתיחה
+        type: object
+        fields:
+          - { name: title, label: כותרת, type: string }
+          - { name: image, label: תמונת החנות, type: image }
+          - { name: addressLine, label: הכתובת, type: string }
+          - { name: addressNote, label: 'הערה לכתובת (למשל: קניון גנים)', type: string }
+          - { name: postcode, label: מיקוד, type: string }
+          - { name: lat, label: קו רוחב (לניווט), type: number }
+          - { name: lng, label: קו אורך (לניווט), type: number }
+          - { name: hoursNote, label: הערה מתחת לשעות, type: string }
+          - name: hours
+            label: שעות הפתיחה
+            type: object
+            list: true
+            fields:
+              - { name: days, label: 'ימים (למשל: ראשון – חמישי)', type: string }
+              - { name: time, label: 'שעות (למשל: 09:30 – 21:00)', type: string }
+
+      - name: contact
+        label: טלפון
+        type: object
+        fields:
+          - { name: phone, label: מספר להצגה, type: string }
+          - name: phoneIntl
+            label: מספר לחיוג
+            type: string
+            description: 'בפורמט בינלאומי, למשל ‎+97235576030 — זה מה שקורה כשלוחצים על "התקשרו"'
+          - { name: whatsapp, label: 'ווטסאפ (אפשר להשאיר ריק)', type: string }
+
+      - name: order
+        label: קישורי משלוחים
+        type: object
+        fields:
+          - { name: title, label: כותרת, type: string }
+          - name: links
+            label: הקישורים
+            type: object
+            list: true
+            fields:
+              - { name: label, label: שם האתר, type: string }
+              - { name: url, label: הקישור, type: string }
+
+      - name: social
+        label: רשתות חברתיות
+        type: object
+        list: true
+        fields:
+          - { name: label, label: שם הרשת, type: string }
+          - { name: url, label: הקישור, type: string }
+
+      - name: actions
+        label: הכפתורים בתחתית המסך בנייד
+        type: object
+        fields:
+          - { name: call, label: כפתור חיוג, type: string }
+          - { name: navigate, label: כפתור ניווט, type: string }
+          - { name: order, label: כפתור הזמנה, type: string }
+
+      - name: seo
+        label: איך האתר נראה בגוגל ובוואטסאפ
+        type: object
+        fields:
+          - { name: title, label: כותרת, type: string }
+          - { name: description, label: תיאור, type: text }
+          - { name: ogImage, label: תמונת השיתוף, type: image }
+
+      - name: footer
+        label: תחתית העמוד
+        type: object
+        fields:
+          - { name: credit, label: 'קרדיט (אפשר להשאיר ריק)', type: string }
+          - { name: rightsNote, label: שורת זכויות יוצרים, type: string }
+
+      # Kept out of the form on purpose — changing these breaks the page.
+      - { name: _comment, label: הערה פנימית, type: string, hidden: true }
+      - { name: lang, label: שפה, type: string, hidden: true }
+      - { name: dir, label: כיוון, type: string, hidden: true }

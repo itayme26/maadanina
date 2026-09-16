@@ -1,0 +1,123 @@
+{
+  "_comment": "Every word and image on the site comes from this file. Edited through /admin by a non-technical owner.",
+  "lang": "he",
+  "dir": "rtl",
+
+  "brand": {
+    "name": "מעדנינה",
+    "nameVocalized": "מַעֲדַנִינָה",
+    "nameLatin": "Maadanina",
+    "tagline": "סלטים · גבינות · נקניקים",
+    "kosher": "כשר",
+    "kosherNote": "הכשרות באחריות בית העסק"
+  },
+
+  "hero": {
+    "image": "hero-night",
+    "eyebrow": "מעדניית בוטיק · פתח תקווה",
+    "headline": "מַעֲדַנִינָה",
+    "tagline": "סלטים · גבינות · נקניקים",
+    "scrollCue": "גללו"
+  },
+
+  "intro": {
+    "statement": "במעדנינה תמצאו גבינות, נקניקים וסלטים טריים",
+    "body": "מעדניית בוטיק כשרה בלב פתח תקווה. סלטים ביתיים שנעשים כאן, גבינות שנבחרות אחת־אחת, נקניקים, דגים מעושנים ומוצרי פרימיום שקשה למצוא במקום אחר.",
+    "ratingValue": "4.6",
+    "ratingCount": "33",
+    "ratingLabel": "בגוגל"
+  },
+
+  "counter": {
+    "title": "הדלפק",
+    "body": "ויטרינת הגבינות היא הלב של המקום. גאודה מעושנת, צפתית קשה, כחולות, קשות ורכות — הכול נחתך במשקל, בדיוק בכמות שאתם צריכים.",
+    "image": "counter",
+    "detailImage": "counter-detail",
+    "detailCaption": "נחתך במשקל, טרי, בדיוק כמה שצריך"
+  },
+
+  "table": {
+    "title": "על השולחן",
+    "body": "מגשי אירוח, כריכים, סלטים ומטבלים — מוכנים לקחת, או מוזמנים מראש לאירוע.",
+    "images": ["platter", "plate"]
+  },
+
+  "categories": [
+    "מגשי אירוח", "ספיישלים לסופ״ש", "גבינות במשקל", "סלטים במשקל",
+    "נקניקים במשקל", "דגים, מעושנים ועוד", "גבינות מדף וממרחים",
+    "סלטים וחמוצים ארוזים", "כריכים", "לחמים", "זיתים", "פסטה דלה קזה",
+    "קפואים", "קישים ומאפים קפואים", "מזווה", "רטבים", "פרג",
+    "קונפיטורות ביתיות", "קרקרים, ברוסקטות ועוגיות", "עוגות וקינוחים",
+    "יינות, בירות ועוד", "שתיה קלה"
+  ],
+
+  "bestsellers": {
+    "title": "המוזמנים ביותר",
+    "note": "מה שהכי מבקשים אצלנו",
+    "items": [
+      { "name": "סלט ביצים", "unit": "250 גרם" },
+      { "name": "כריך בשר", "unit": "" },
+      { "name": "פסטרמה ביתית", "unit": "200 גרם" },
+      { "name": "סלט טונה ירקות", "unit": "250 גרם" },
+      { "name": "חציל במיונז", "unit": "250 גרם" }
+    ]
+  },
+
+  "shelf": {
+    "title": "מהמדפים",
+    "note": "מחירים מתוך התפריט המקוון ועשויים להשתנות"
+  },
+
+  "visit": {
+    "title": "לבקר אצלנו",
+    "image": "storefront-day",
+    "interiorImage": "shop-interior",
+    "addressLine": "העצמאות 65, פתח תקווה",
+    "addressNote": "קניון גנים",
+    "postcode": "4937999",
+    "lat": 32.0742854,
+    "lng": 34.8699868,
+    "hoursNote": "שעות הפתיחה עשויות להשתנות בערבי חג",
+    "hours": [
+      { "days": "ראשון – חמישי", "time": "09:30 – 21:00" },
+      { "days": "שישי וערבי חג", "time": "09:00 – 15:00" },
+      { "days": "מוצאי שבת", "time": "עד 22:00" }
+    ]
+  },
+
+  "contact": {
+    "phone": "03-5576030",
+    "phoneIntl": "+97235576030",
+    "whatsapp": ""
+  },
+
+  "order": {
+    "title": "להזמין משלוח",
+    "links": [
+      { "label": "Wolt", "url": "https://wolt.com/he/isr/petah-tikva/venue/maadanina-petach-tikva" },
+      { "label": "תן ביס", "url": "https://www.10bis.co.il/next/restaurants/menu/delivery/37337/%D7%9E%D7%A2%D7%93%D7%A0%D7%99%D7%A0%D7%94" }
+    ]
+  },
+
+  "social": [
+    { "label": "Instagram", "url": "https://www.instagram.com/maadanina/" },
+    { "label": "Facebook", "url": "https://www.facebook.com/Maadanina.Delicatessen/" }
+  ],
+
+  "actions": {
+    "call": "התקשרו",
+    "navigate": "ניווט",
+    "order": "הזמנה"
+  },
+
+  "seo": {
+    "title": "מעדנינה | מעדניית בוטיק כשרה בפתח תקווה",
+    "description": "מעדניית בוטיק כשרה בפתח תקווה. סלטים ביתיים, גבינות במשקל, נקניקים, דגים מעושנים ומוצרי פרימיום. העצמאות 65, קניון גנים.",
+    "ogImage": "/assets/og.jpg"
+  },
+
+  "footer": {
+    "credit": "",
+    "rightsNote": "כל הזכויות שמורות"
+  }
+}

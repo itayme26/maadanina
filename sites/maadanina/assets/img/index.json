@@ -1,0 +1,607 @@
+{
+  "photos": {
+    "hero-night": {
+      "id": "hero-night",
+      "widths": [
+        640,
+        1080,
+        1440,
+        1920
+      ],
+      "aspect": 0.75,
+      "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoPABQAPu1iqU2ppaOiMAgBMB2JQBOmUDwAAOIKCY8ApsYX6jsAAP7uwUZ98fX8KSNvW/Uymrw/yGtZtprzHAmrZZ6L47E6F/sFH1vLMaroFtXm881gAA=="
+    },
+    "hero-night-portrait": {
+      "id": "hero-night-portrait",
+      "widths": [
+        480,
+        780,
+        1080
+      ],
+      "aspect": 0.8196,
+      "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoQABQAPu1kqU2ppaOiMAgBMB2JQBdgBD0O+JrwF6pAAP7wzJjEo4gwSLRZL6VX3ZXb/mJuNTuWIDScFzyRTqzGT0ugVOSVlABAuEntWAAAAA=="
+    },
+    "counter": {
+      "id": "counter",
+      "widths": [
+        480,
+        800,
+        1280,
+        1920
+      ],
+      "aspect": 1.3333,
+      "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JQBhQAtkNz57BlBsJEXIAAP0hAF/FTSbh0XBhVPDJfPYeUbUZiVvqsBjS4biQ/AA="
+    },
+    "counter-detail": {
+      "id": "counter-detail",
+      "widths": [
+        480,
+        800,
+        1280
+      ],
+      "aspect": 0.5625,
+      "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoLABQAPu1kqk4ppaQiMAgBMB2JZgCdABsjND4DUcdgAPqUF0trTphMyQ9yw5FkPgl4aojmYNFT3DKysZx5ZGw0TEpsQAAA"
+    },
+    "plate": {
+      "id": "plate",
+      "widths": [
+        480,
+        800,
+        1280,
+        1920
+      ],
+      "aspect": 0.75,
+      "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoPABQAPu1kqU2ppaQiMAgBMB2JYwDCgCBixWIMRow7szvWAMyhywxU6m9FLf5/6TEms3g7MhgMkMuCIICmiZ/Ly70o7HdCoAA="
+    },
+    "platter": {
+      "id": "platter",
+      "widths": [
+        480,
+        800,
+        1280,
+        1920
+      ],
+      "aspect": 0.75,
+      "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoPABQAPu1orU6ppiSiMAgBMB2JQBdgAxWJ2lrD7gh4AAD1l1RmwS3AxdQxtfJSOZaUlZrSZCRJqcSg1D0Na1Bvi62lugAA"
+    },
+    "storefront-day": {
+      "id": "storefront-day",
+      "widths": [
+        480,
+        800,
+        1280
+      ],
+      "aspect": 0.5625,
+      "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoLABQAPu1iqU2ppaOiMAgBMB2JYwC06CHDzPnrkEgMlgDc4fLStFtGj2hWHQ9FS0P7YOGv6/Ey/t8ST98mUpg+H4AAAA=="
+    },
+    "shop-interior": {
+      "id": "shop-interior",
+      "widths": [
+        480,
+        800,
+        1280,
+        1920
+      ],
+      "aspect": 0.75,
+      "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQBACdASoPABQAPu1kqU4ppaOiMAgBMB2JYwCdACPqHWE+EluiLcYBgAD+u03Zw8F1URH9boDMTKy3kdXf9u7LWqPWShOtwgpXo7wA"
+    }
+  },
+  "products": {
+    "679a3c3568839465740aabb4": {
+      "id": "p-740aabb4",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABQAwCdASoUAAsAPu1krU6ppaSiMAgBMB2JZwAAUqkCx0cjAAD+84KAvbQSYH3PXR+GveY2opdPgiz7HAAAAA==",
+      "name": "מוצרלה מגורדת לפיצה",
+      "price": "₪18.50",
+      "category": "‫גבינות במשקל"
+    },
+    "67bc66ed7d14106f0111349f": {
+      "id": "p-0111349f",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABQAwCdASoUAAoAPu1iqU2ppaOiMAgBMB2JaQAAW+xDCVZ3gAD+83R+UtCcgGeAAAA=",
+      "name": "צפתית קשה | מחלבת עברי",
+      "price": "₪21.80",
+      "category": "‫גבינות במשקל"
+    },
+    "686cfe93a575ad20a943c9c6": {
+      "id": "p-a943c9c6",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBfnA8M4fh/aRoAAAP7zgoApVGOl50WmDke4iob5OT0AAAA=",
+      "name": "גאודה מעושנת",
+      "price": "₪47.30",
+      "category": "‫גבינות במשקל"
+    },
+    "6a58a5f907d981ab44b88fdd": {
+      "id": "p-44b88fdd",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAAsAPu1mqk4ppaOiMAgBMB2JZQAAUqm/cF2CgAD+83dK2F7BjerevwGH1btlOk7tYfu4S9FnErbgAAA=",
+      "name": "פטה כבד בטעם פטריות יער",
+      "price": "₪62.50",
+      "category": "נקניקים במשקל"
+    },
+    "6a58a5e107d981ab44b88fd2": {
+      "id": "p-44b88fd2",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAAsAPu1kqk4ppaQiMAgBMB2JZQDCgB6RWR+N46yAAP7zf5yt0Vjey7XHmaua4nSZF4BmMlzfHoXwAAA=",
+      "name": "פטה כבד ביין לבן",
+      "price": "₪62.50",
+      "category": "נקניקים במשקל"
+    },
+    "670f450deed8e7744d365b75": {
+      "id": "p-4d365b75",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.4074,
+      "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAwCdASoUAA4APu1iqU2ppaQiMAgBMB2JQAAKK/hqiAoAAP7x4KgtcCiro4/s9t08DhvzJvfvGzU9OgAqjrFS70h1QAAA",
+      "name": "גפילטע פיש | 6 יחידות",
+      "price": "₪69.90",
+      "category": "דגים, מעושנים ועוד"
+    },
+    "6890a1dd1a1f930b4656ad05": {
+      "id": "p-4656ad05",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAwAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZwAAW+k7NunQAP7zfmZHhoGbh1b6WlVFDQvszvgAAA==",
+      "name": "פילדלפיה לייט",
+      "price": "₪21.90",
+      "category": "גבינות מדף וממרחים"
+    },
+    "6890a1db1a1f930b4656ad04": {
+      "id": "p-4656ad04",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JaQAAUqkHK4/kAAD+84LQhFqFHIXdnZDM6UAAAAA=",
+      "name": "פילדלפיה עשבי תיבול ושום",
+      "price": "₪21.90",
+      "category": "גבינות מדף וממרחים"
+    },
+    "6890a1d91a1f930b4656ad03": {
+      "id": "p-4656ad03",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAwCdASoUAAsAPu1orU2ppqSiMAgBMB2JZwAAW+sOQsfgq+gyAAD+8jRDuvZsY8HFIA751vNWAV6BR16OAAAA",
+      "name": "פילדלפיה שמנת",
+      "price": "₪21.90",
+      "category": "גבינות מדף וממרחים"
+    },
+    "6890a21d7245196f90acea92": {
+      "id": "p-90acea92",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABwAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JaQAAW4YjVj+JwAAA/vN/DwZPffhd85Cd15gAAAA=",
+      "name": "ממרח בולגרית ובצל ירוק | מונטה קרלו",
+      "price": "₪31.90",
+      "category": "גבינות מדף וממרחים"
+    },
+    "6841397e4a75a7dbd7524679": {
+      "id": "p-d7524679",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAAsAPu1oqk6ppiQiMAgBMB2JZQDA3B6Nmd3Kv1dvrgAA/u40/DJkb0XSFsDvkDw6YjXNrYdNTwBr8BIQwkaYAAA=",
+      "name": "טחינה מי ומי קטן",
+      "price": "₪19.90",
+      "category": "סלטים וחמוצים ארוזים"
+    },
+    "690b16d9a917603c057c5971": {
+      "id": "p-057c5971",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRhABAABXRUJQVlA4WAoAAAAQAAAAEwAACQAAQUxQSIoAAAANuTJE9D80kFzbbtvAve1/pUbvJdnDJTzVw/dUH39McAHkKAUREzAByxvAgIb85uwqGBGINb2MtagXB0ldKZgApNJ0ki0nnzApEAFOxhs5hUrIE4TqUTSfysoVhABSn9/IP1ioEnzR/WzNUdrMSnKhl7CaYam9ZTvia6VmvacF9jrxvZdP9Gb/xpdWUDggYAAAAJADAJ0BKhQACgA+7WKpTamlo6IwCAEwHYlkALToI/pyx0dzYWAA/vSeAXPvkGNuI9k7Ej38vRYOz+Mc/MS7cFpLEZFzx4d1uVp6T425SrR9Xa5RtXjPn/9h4/GV8NAAAA==",
+      "name": "חמוצים יפנים מי ומי",
+      "price": "₪44.00",
+      "category": "סלטים וחמוצים ארוזים"
+    },
+    "690b16b3ff98801ac6a526a1": {
+      "id": "p-c6a526a1",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRvQAAABXRUJQVlA4WAoAAAAQAAAAEwAACQAAQUxQSHcAAAABgGPb2rHn9fvbtq3aqM2So2BtJqmyMgeVGV+ynjFExASgfwmXgmIEJ2pHyG8SGMadpcmo6FERkAyN92+rVlRHIcLbOf98nUYxNQZQfX75/vu5q1koADFjYX7/2DRtIMwM6da0m9ERCEJU6474jRzDEOEKyTD6CwBWUDggVgAAABADAJ0BKhQACgA+7WKpTamlpCIwCAEwHYlAFh2BU3bCAADpQvGr4c/f9lb6t5CQDFNDuw4yqD09gBdw064FfnFdQ/BwGnXfAhVOd688rGcvaUqvgAAA",
+      "name": "ג'בטה כוסמין דגנים",
+      "price": "₪10.00",
+      "category": "לחמים"
+    },
+    "68480be6e7aea9fcc5351e85": {
+      "id": "p-c5351e85",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwAAUqkCo7qpAAD+84KBIQ/ipRUwNfzHaqU5V9Iut6KAAAA=",
+      "name": "זית מעודן מגולען",
+      "price": "₪32.90",
+      "category": "זיתים"
+    },
+    "6a58a5d807d981ab44b88fd1": {
+      "id": "p-44b88fd1",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7794,
+      "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABwAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZgC7AB6RCkzsDkAA/vOCgL1hgW0LalYBXehB2ez9aTxJ5I7a6mLAAAA=",
+      "name": "שיפקוניות",
+      "price": "₪18.90",
+      "category": "זיתים"
+    },
+    "686cfe419aa298f40fed9c36": {
+      "id": "p-0fed9c36",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZwDImBjdbNvLO54AAP7zgri9hn7HyGdCeu9D85gktnr2TiAAAA==",
+      "name": "קובה חמוסטה | בשרי",
+      "price": "₪89.90",
+      "category": "קפואים"
+    },
+    "6859598c9c1f7ce33a3e08bc": {
+      "id": "p-3a3e08bc",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZwAAW+y/EOBwMAAA/vN1J57X3re5ZpeVF9yG1u2j4AAA",
+      "name": "פסטה פוזילו | ארמנדו",
+      "price": "₪11.90",
+      "category": "רטבים"
+    },
+    "68595991fde5cbbcef53a521": {
+      "id": "p-ef53a521",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZwAAW+y/EOYHJqAA/vN1J57uzesyoeyGysp7kfHrLu4AAAA=",
+      "name": "פסטה חונקי כמרים | ארמנדו",
+      "price": "₪11.90",
+      "category": "רטבים"
+    },
+    "685959a2fde5cbbcef53a526": {
+      "id": "p-ef53a526",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZwDG9CHgUPrUw87oAP7zffNPzZcsS3d0XFGmER7tkrsWAAA=",
+      "name": "פסטה פנה ריגטה | ארמנדו",
+      "price": "₪11.90",
+      "category": "רטבים"
+    },
+    "685959c4fde5cbbcef53a52f": {
+      "id": "p-ef53a52f",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZwAAWlnb77TgAP7zdTBOSsReNxyI+Z1qgAAA",
+      "name": "רוטב סריראצ'ה צ'ילי ירוק מיו",
+      "price": "₪32.90",
+      "category": "רטבים"
+    },
+    "69de208b488442231bbab43a": {
+      "id": "p-1bbab43a",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JaQAAWlnM/WfgAP7zfugoiXXxbZtljXPCf9m5AAA=",
+      "name": "על הבייגל | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de22b9488442231bbab4f0": {
+      "id": "p-1bbab4f0",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JaQAAQvf58cAA/vOC0B7tZk2WED8SOv4dAblgAAA=",
+      "name": "תבלין לדגים | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de232d488442231bbab515": {
+      "id": "p-1bbab515",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JaQAAQvgPoM+VgAD+84LQHuz7l1HXFS6pk9YgJMCAAA==",
+      "name": "תבלין על האש (לסטייק) | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de21df6b1a81cc68347413": {
+      "id": "p-68347413",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JZwAAW4YboAGAAP7zfvUKceJjpznRgu4aFAQA",
+      "name": "פפריקה מתוקה | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de21e86b1a81cc68347414": {
+      "id": "p-68347414",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JZwAAW4S/J0AA/vN+9Qpx4l1jGcXEZOsDvyAA",
+      "name": "פפריקה מתוקה בשמן | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de21d96b1a81cc68347411": {
+      "id": "p-68347411",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAwAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JZQDG9BjDrKOAAP7zgs/IqYrgD4zrEMLmSybiInTAAA==",
+      "name": "פפריקה חריפה | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de22b173316796ef90dab9": {
+      "id": "p-ef90dab9",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABQAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JZQDE2CFUA3HGAAD+837xaj6MS6xjOLiHOixNgoVZIAAA",
+      "name": "גריל עוף | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de211e488442231bbab467": {
+      "id": "p-1bbab467",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAAoAPu1iqU2ppaOiMAgBMB2JZQDImCFUDMeUcAD+837xaj6MSrC4183t3mO/7wAAAA==",
+      "name": "פילדלפיה | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de20a76b1a81cc68347383": {
+      "id": "p-68347383",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAwCdASoUAAoAPu1iqU2ppaOiMAgBMB2JZwAAW4YIYtgA/vN+8xwHr05HG6Ffb9ml2cAA",
+      "name": "עלי דפנה ופלפל אנגלי | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de205a488442231bbab426": {
+      "id": "p-1bbab426",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAwAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JZwAAQvdtUMAAAP7zgs+j14nSFnln6itWB9bSDGwAAA==",
+      "name": "סומק | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de2377488442231bbab547": {
+      "id": "p-1bbab547",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAgCdASoUAAoAPu1iqU2ppaQiMAgBMB2JaQAAQrNtOAD+84LQO1327sVtBiICIoQ7gAAA",
+      "name": "תערובות פיסטוק בצל ושקדים | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de1fdc6b1a81cc6834733f": {
+      "id": "p-6834733f",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAAoAPu1iqU2ppaOiMAgBMB2JZQAAW+wuVmAAAP7zfhG+KznuUEcd3nKjO/63yAA=",
+      "name": "כורכום | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de2115488442231bbab460": {
+      "id": "p-1bbab460",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JZwAAW4YbnyjgAP7zfvUKceJjpzqgJUccNQAA",
+      "name": "פטרוזיליה | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de1ff773316796ef90d9c4": {
+      "id": "p-ef90d9c4",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAgCdASoUAAoAPu1iqU2ppaOiMAgBMB2JaQAAeyAA/vCYSWc0gqrehPSQavc1ECAAAA==",
+      "name": "מלח לימון | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de204673316796ef90d9d7": {
+      "id": "p-ef90d9d7",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JaQAAWloecj0AAP7zfugoiXXNBId+/QIlLAAA",
+      "name": "מלח הימלאיה גס | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de22616b1a81cc68347437": {
+      "id": "p-68347437",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAwAwCdASoUAAoAPu1iqU2ppaOiMAgBMB2JZQAAWlomqj0AAP7zfugX2llaeZ4lsnjlfTnp03pvgAAA",
+      "name": "קינמון טחון | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de204e73316796ef90d9db": {
+      "id": "p-ef90d9db",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAAoAPu1iqU2ppaQiMAgBMB2JaQAAW4XvQKmAAP7zfvMcB69PTzKMqkn9iuBwAAA=",
+      "name": "מקלות קינמון | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de1fc16b1a81cc68347330": {
+      "id": "p-68347330",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAAoAPu1iqU2ppaOiMAgBMB2JZwDG9CFSTso4AP7zfvFqPoxL/asqJEgpfrQUAAA=",
+      "name": "חוויאג' למרק | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de1fcd6b1a81cc68347336": {
+      "id": "p-68347336",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAAoAPu1iqU2ppaOiMAgBMB2JZQDImCFUDMeUcAD+837xaj6MSrC4183t3mO/7wAAAA==",
+      "name": "טוסקנה | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "69de193973316796ef90d69a": {
+      "id": "p-ef90d69a",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.9264,
+      "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAwCdASoUAAoAPu1iqk2ppaQiMAgBMB2JaQAAW4LgpgAA/vN+8uVyud5rpuky/4v+AAAA",
+      "name": "בהרט לקובה | פרג",
+      "price": "₪23.90",
+      "category": "פרג"
+    },
+    "684138a6ce4ac5a6172efcf4": {
+      "id": "p-172efcf4",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZQAAW+seIqAAAP7zdSee2XvM3RK9vOZsp5KEXEAAAA==",
+      "name": "מיץ תפוחים סחוט",
+      "price": "₪18.00",
+      "category": "שתיה קלה"
+    },
+    "684138aace4ac5a6172efcf5": {
+      "id": "p-172efcf5",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBfJBDwEDLb0AAD+83Unns+4P9YrqvByduOp54PggAAA",
+      "name": "מיץ תפוזים סחוט",
+      "price": "₪18.00",
+      "category": "שתיה קלה"
+    },
+    "684138acce4ac5a6172efcf6": {
+      "id": "p-172efcf6",
+      "widths": [
+        240,
+        480
+      ],
+      "aspect": 1.7778,
+      "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwAAWlM0UGAA/vN1ME5KxwpqNatk/wiODTvdQy1UAAAA",
+      "name": "מיץ תפוח גזר וכורכום סחוט",
+      "price": "₪18.00",
+      "category": "שתיה קלה"
+    }
+  }
+}
