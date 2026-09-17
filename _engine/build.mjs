@@ -100,7 +100,16 @@ async function main() {
     if (P[ref]) return P[ref];
     return typeof ref === 'string' && ref.startsWith('/') ? ref : null;
   };
-  const products = Object.entries(assets.products).map(([id, p]) => ({ id, ...p }));
+  // Names, prices and descriptions come from the content file so the owner can
+  // change them in the editor; only the image variants come from the generated
+  // asset index. An item whose photo is missing still renders, without one.
+  const byAssetId = (group) =>
+    Object.fromEntries(Object.values(group || {}).map((a) => [a.id, a]));
+  const productAssets = byAssetId(assets.products);
+  const sandwichAssets = byAssetId(assets.sandwiches);
+
+  const products = (site.shelf.items || []).map((i) => ({ ...i, asset: productAssets[i.img] }));
+  const sandwiches = (site.sandwiches.items || []).map((i) => ({ ...i, asset: sandwichAssets[i.img] }));
 
   // Per-letter spans for the hero wordmark. Niqqud are combining marks, so we
   // split by grapheme — otherwise a vowel point gets orphaned into its own span.
@@ -309,6 +318,38 @@ async function main() {
   </div>
 </section>
 
+<!-- ========================================================== SANDWICHES -->
+<section class="subs section-pad">
+  <div class="wrap">
+    <div data-reveal>
+      <p class="eyebrow">${esc(site.sandwiches.note)}</p>
+      <h2 class="h-section">${esc(site.sandwiches.title)}</h2>
+      <p class="body-dim">${esc(site.sandwiches.body)}</p>
+    </div>
+    <ul class="subs__grid">
+      ${sandwiches
+        .map(
+          (s, i) => `<li class="sub" data-reveal style="--i:${i % 2}">
+        <div class="sub__img">${picture(s.asset, {
+          alt: s.name,
+          sizes: '(min-width: 62rem) 26rem, (min-width: 40rem) 45vw, calc(100vw - 2.5rem)',
+          lean: true,
+        })}</div>
+        <div class="sub__body">
+          <div class="sub__head">
+            <h3 class="sub__name">${esc(s.name)}</h3>
+            <span class="sub__price">${esc(s.price)}</span>
+          </div>
+          <p class="sub__desc">${esc(s.desc)}</p>
+        </div>
+      </li>`
+        )
+        .join('\n      ')}
+    </ul>
+    <p class="shelf__note" data-reveal>${esc(site.sandwiches.priceNote)}</p>
+  </div>
+</section>
+
 ${ornament}
 
 <!-- =============================================================== SHELF -->
@@ -323,7 +364,7 @@ ${ornament}
       ${products
         .map(
           (p, i) => `<li class="product" data-reveal style="--i:${i % 6}">
-        <div class="product__img">${picture(p, {
+        <div class="product__img">${picture(p.asset, {
           alt: p.name,
           sizes: '(min-width: 40rem) 11rem, 44vw',
           lean: true,

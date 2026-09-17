@@ -1,0 +1,133 @@
+{
+  "source": "https://www.10bis.co.il/NextApi/GetRestaurantMenu?restaurantId=37337",
+  "note": "The shop's own menu photography from its 10bis listing.",
+  "items": [
+    {
+      "name": "כריך בשר קלאסי L",
+      "price": 52,
+      "desc": "ג'בטה מחמצת, מיונז, חרדל, חסה, עגבנייה, מלפפון חמוץ, בצל סגול ובשר לבחירה. ₪0 / 0 גר׳",
+      "category": "כריכי בשר",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/527dbee5-9ee7-48d7-8260-33c30c5176c6.jpg",
+      "file": "_incoming/maadanina/tenbis/da7f1d95cb.jpg"
+    },
+    {
+      "name": "כריך הודו XL",
+      "price": 60,
+      "desc": "ג'בטה מחמצת, מיונז,חרדל, חסה, עגבנייה, מלפפון חמוץ, בצל סגול, 130 גרם הודו",
+      "category": "כריכי בשר",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/74f28fef-03ce-4710-9acf-f7f47acb3f1c.jpg",
+      "file": "_incoming/maadanina/tenbis/545261646b.jpg"
+    },
+    {
+      "name": "כריך בקר XL",
+      "price": 64,
+      "desc": "ג'בטה מחמצת, מיונז, חרדל, חסה, עגבנייה, מלפפון חמוץ, בצל סגול,נקניק בקר.",
+      "category": "כריכי בשר",
+      "src": ""
+    },
+    {
+      "name": "כריך סלמון",
+      "price": 60,
+      "desc": "ג'בטה מחמצת, גבינת שמנת, עלי רוקט, עגבנייה, מלפפון ירוק, בצל סגול וסלמון מעושן",
+      "category": "כריכי דגים",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/b8c5261f-9ccd-4243-90a1-d4d415e35dc4.jpg",
+      "file": "_incoming/maadanina/tenbis/74fb4b782c.jpg"
+    },
+    {
+      "name": "כריך מטיאס",
+      "price": 60,
+      "desc": "ג'בטה מחמצת, חמאה, גבינת שמנת, עלי רוקט, בצל סגול, מטיאס וסלסה",
+      "category": "כריכי דגים",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/6750da5e-a8a9-4a3f-a5b8-c7f531d50d76.jpg",
+      "file": "_incoming/maadanina/tenbis/1f1d1a6a60.jpg"
+    },
+    {
+      "name": "כריך גאודה הולנדי",
+      "price": 52,
+      "desc": "ג'בטה מחמצת, גבינת שמנת, פסטו, עלי רוקט, עגבנייה, מלפפון ירוק וגאודה בקר",
+      "category": "כריכים חלביים",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/8648bb99-3462-48e0-bf7a-6970b31cbf0b.jpg",
+      "file": "_incoming/maadanina/tenbis/24a0029b0e.jpg"
+    },
+    {
+      "name": "כריך קפרזה איטלקי",
+      "price": 52,
+      "desc": "ג'בטה מחמצת, פסטו, עלי רוקט, עגבנייה, מוצרלה, וקרם בלסמי מצומצם",
+      "category": "כריכים חלביים",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a7256c10-4dd5-4030-9d61-fb3ff39e6918.jpg",
+      "file": "_incoming/maadanina/tenbis/6b9292c4c4.jpg"
+    },
+    {
+      "name": "כריך סלט ביצים",
+      "price": 52,
+      "desc": "ג'בטה מחמצת, סלט ביצים, עלי רוקט, עגבנייה ומלפפון ירוק.",
+      "category": "כריכים פרווה",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/d00fb965-eaa6-4d9a-be86-4f15d321df75.jpg",
+      "file": "_incoming/maadanina/tenbis/c468aec855.jpg"
+    },
+    {
+      "name": "כריך סלט טונה",
+      "price": 52,
+      "desc": "ג'בטה מחמצת, - סלט טונה, חסה, עגבנייה ובצל סגול.",
+      "category": "כריכים פרווה",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/5c2a1d36-7fb0-410e-9b4c-3ab000dda431.jpg",
+      "file": "_incoming/maadanina/tenbis/243dd5c6dd.jpg"
+    },
+    {
+      "name": "פחית קוקה קולה",
+      "price": 12,
+      "desc": "קוקה קולה פחית 330 מל",
+      "category": "שתיה",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/d9a2cde9-2f41-4d2c-806f-36fff5c95b00.jpg",
+      "file": "_incoming/maadanina/tenbis/f6d6571896.jpg"
+    },
+    {
+      "name": "קולה זירו פחית",
+      "price": 12,
+      "desc": "פחית קולה זירו 330 מ\"ל",
+      "category": "שתיה",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/211a4b4f-3cdd-4dcd-8858-b1ba4787cdd2.jpg",
+      "file": "_incoming/maadanina/tenbis/abb8256f9f.jpg"
+    },
+    {
+      "name": "פרייה",
+      "price": 12,
+      "desc": "330 מ\"ל",
+      "category": "שתיה",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/b5157b4f-5b6f-4831-99f0-cb00f4c20f3a.jpg",
+      "file": "_incoming/maadanina/tenbis/14c9e0cbd1.jpg"
+    },
+    {
+      "name": "סודה טמפו",
+      "price": 10,
+      "desc": "בקבוק זכוכית סודה טמפו 275  מ\"ל",
+      "category": "שתיה",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/26c129c8-e890-47ff-a12f-a16585b210bf.jpg",
+      "file": "_incoming/maadanina/tenbis/297d7d4f14.jpg"
+    },
+    {
+      "name": "סן פלגרינו",
+      "price": 10,
+      "desc": "בקבוק זכוכית 250 מ\"ל",
+      "category": "שתיה",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/3c038034-836b-41ed-a8e1-3c563eecb102.jpg",
+      "file": "_incoming/maadanina/tenbis/626c40ddbf.jpg"
+    },
+    {
+      "name": "מים מינרליים",
+      "price": 9,
+      "desc": "500 מ\"ל",
+      "category": "שתיה",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/38642060-fe1d-49fd-aee0-3118880d8202.jpg",
+      "file": "_incoming/maadanina/tenbis/e2c8786c4e.jpg"
+    },
+    {
+      "name": "פפסי מקס",
+      "price": 12,
+      "desc": "בקבוק זכוכית 330 מ\"ל",
+      "category": "שתיה",
+      "src": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/06d01742-490b-43a8-a142-aebdcd7bd8e5.jpg",
+      "file": "_incoming/maadanina/tenbis/fe8fedb392.jpg"
+    }
+  ]
+}

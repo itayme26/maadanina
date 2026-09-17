@@ -89,12 +89,47 @@ content:
               - { name: name, label: שם הפריט, type: string }
               - { name: unit, label: 'משקל או כמות (אפשר להשאיר ריק)', type: string }
 
+      - name: sandwiches
+        label: הכריכים
+        type: object
+        fields:
+          - { name: title, label: כותרת, type: string }
+          - { name: note, label: שורה קטנה מעל הכותרת, type: string }
+          - { name: body, label: הטקסט, type: text }
+          - { name: priceNote, label: הערה על המחירים, type: string }
+          - name: items
+            label: רשימת הכריכים
+            type: object
+            list: true
+            description: אפשר לשנות שם, מחיר ותיאור, לגרור כדי לסדר מחדש, או למחוק.
+            fields:
+              - { name: name, label: שם הכריך, type: string }
+              - { name: price, label: 'מחיר (למשל ₪52)', type: string }
+              - { name: desc, label: מה יש בפנים, type: text }
+              - name: img
+                label: תמונה
+                type: string
+                description: 'מזהה התמונה. לא לשנות אלא אם מחליפים תמונה.'
+
       - name: shelf
-        label: כותרת אזור המוצרים
+        label: המוצרים מהמדפים
         type: object
         fields:
           - { name: title, label: כותרת קטנה, type: string }
           - { name: note, label: הערה על המחירים, type: string }
+          - name: items
+            label: רשימת המוצרים
+            type: object
+            list: true
+            description: אפשר לשנות שם ומחיר, לגרור כדי לסדר מחדש, או למחוק מוצר.
+            fields:
+              - { name: name, label: שם המוצר, type: string }
+              - { name: price, label: 'מחיר (למשל ₪21.90)', type: string }
+              - { name: category, label: מחלקה, type: string }
+              - name: img
+                label: תמונה
+                type: string
+                description: 'מזהה התמונה. לא לשנות אלא אם מחליפים תמונה.'
 
       - name: visit
         label: כתובת ושעות פתיחה

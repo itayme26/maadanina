@@ -533,6 +533,76 @@ section { position: relative; }
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
 }
 
+/* ============================================================ SANDWICHES */
+
+/* This photography is lit on pale grey, so the section turns to paper — the
+   same move the shelf makes, and the two sit together as one light passage
+   between the dark ones. */
+.subs {
+  background: linear-gradient(to bottom, var(--ink-1) 0%, var(--ink-1) 22%, var(--cream) 22%);
+  color: #1a2229;
+}
+.subs .eyebrow { color: var(--cyan); }
+.subs .h-section { color: #fff; }
+.subs .body-dim { color: var(--cream-dim); }
+
+.subs__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: clamp(1.25rem, 3vw, 2rem);
+  margin-block: clamp(2.5rem, 6vw, 3.5rem) 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.sub {
+  background: #fff;
+  border: 1px solid var(--cream-2);
+  border-radius: 3px;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out);
+}
+.sub:hover { transform: translateY(-4px); box-shadow: 0 1.25rem 3rem rgba(26, 34, 41, 0.16); }
+
+.sub__img { aspect-ratio: 4 / 3; overflow: clip; }
+.sub__img img { inline-size: 100%; block-size: 100%; object-fit: cover; }
+
+.sub__body { padding: clamp(1rem, 2.5vw, 1.4rem); display: grid; gap: 0.5rem; }
+
+.sub__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.sub__name {
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  font-weight: 400;
+  color: #10191f;
+}
+.sub__price {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: var(--step-0);
+  color: var(--cyan-deep);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.sub__desc {
+  color: #55616b;
+  font-size: var(--step--1);
+  line-height: 1.6;
+}
+
+.subs .shelf__note { color: #6a7580; }
+
+/* The shelf follows directly, so it must not repeat the paper transition. */
+.subs + .rule { background: var(--cream); }
+.subs + .rule path, .subs + .rule line, .subs + .rule circle { stroke: #b9ae99; }
+
 /* ================================================================ 7. SHELF */
 
 /* The product photography is catalog-style on white, so this section flips to

@@ -603,5 +603,111 @@
       "price": "₪18.00",
       "category": "שתיה קלה"
     }
+  },
+  "sandwiches": {
+    "s-da7f1d95cb": {
+      "id": "s-da7f1d95cb",
+      "widths": [
+        400,
+        700
+      ],
+      "aspect": 1.1236,
+      "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwBACdASoUABIAPu1mqk8ppaOiKA1RMB2JZgDE9X+gOM3O9K3YdvJu4ZV9trYzRwAA/u/OtTf5pmtCl6VCHwZUNl1MGjTaT9eN6BPpsGTt7zjPxLAq8SxMsipE2s2CbjUdRqdwQxMEWdNmOAAAAA==",
+      "name": "כריך בשר קלאסי L",
+      "price": 52,
+      "desc": "ג'בטה מחמצת, מיונז, חרדל, חסה, עגבנייה, מלפפון חמוץ, בצל סגול ובשר לבחירה",
+      "category": "כריכי בשר"
+    },
+    "s-545261646b": {
+      "id": "s-545261646b",
+      "widths": [
+        400,
+        700
+      ],
+      "aspect": 1.1236,
+      "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBACdASoUABIAPu1mq06ppaOiKA1RMB2JZACdIQdBh7JEn3Rg8o4nG4dxgAD+kAQSO70Et4lKq5tNPmTLTwM/SSDZEmiyoOxvoVdgNyZ+02NjMnFNxMPjYLkiCQWA+LQSRofhe26h+K12Nx15sn4KPt9vVPI7UpFip72iDAA=",
+      "name": "כריך הודו XL",
+      "price": 60,
+      "desc": "ג'בטה מחמצת, מיונז,חרדל, חסה, עגבנייה, מלפפון חמוץ, בצל סגול, 130 גרם הודו",
+      "category": "כריכי בשר"
+    },
+    "s-74fb4b782c": {
+      "id": "s-74fb4b782c",
+      "widths": [
+        400,
+        700
+      ],
+      "aspect": 1.1236,
+      "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwBACdASoUABIAPu1oqlAppaOiqA1RMB2JZAC7ABEZjDBEmEzUj9Z4aJtJjdIAAP7tOqSVw4u6A1dF5vKlaKLdUZP+dMeFpUlAlwC6G/gHyoUhcsFKSijL4I2LVStPHZaHEaFEiAA=",
+      "name": "כריך סלמון",
+      "price": 60,
+      "desc": "ג'בטה מחמצת, גבינת שמנת, עלי רוקט, עגבנייה, מלפפון ירוק, בצל סגול וסלמון מעושן",
+      "category": "כריכי דגים"
+    },
+    "s-1f1d1a6a60": {
+      "id": "s-1f1d1a6a60",
+      "widths": [
+        400,
+        700
+      ],
+      "aspect": 1.1236,
+      "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQBACdASoUABIAPu1eqE4ppKOiMBgMATAdiUAUtYId+uqVczjoElfkhjXJmVOdqAD+5yhwc52GPkpW1oqqth2hG2t3mUZ0u/tgFvjohECA+G8pWgP/HjlWp9JLQDQAeHmAAA==",
+      "name": "כריך מטיאס",
+      "price": 60,
+      "desc": "ג'בטה מחמצת, חמאה, גבינת שמנת, עלי רוקט, בצל סגול, מטיאס וסלסה",
+      "category": "כריכי דגים"
+    },
+    "s-24a0029b0e": {
+      "id": "s-24a0029b0e",
+      "widths": [
+        400,
+        700
+      ],
+      "aspect": 1.1236,
+      "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAwBQCdASoUABIAPu1usFIppiSiqAgBMB2JYgCdMoRwMIABFloiiEmNwyGfAoFoiMin/AD+s7wEMBmm+r0sQRtuCsKlWFm4amqkBH37GiQlKnAVb27xdhwITPkngtBNACtqH+spt7ac/+TfT0L6mgZIWURgDKxHnnoZb+yKNaaLpXtAuAAAAA==",
+      "name": "כריך גאודה הולנדי",
+      "price": 52,
+      "desc": "ג'בטה מחמצת, גבינת שמנת, פסטו, עלי רוקט, עגבנייה, מלפפון ירוק וגאודה בקר",
+      "category": "כריכים חלביים"
+    },
+    "s-6b9292c4c4": {
+      "id": "s-6b9292c4c4",
+      "widths": [
+        400,
+        700
+      ],
+      "aspect": 1.1236,
+      "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACQBQCdASoUABIAPu1wr1KppiQiqAgBMB2JZACdMuOCyIABKfZlavM1BzxDUh7sKEVzlvlx0AD+s7wEMBpO6NFq3h95i0wsPHuSNltVMD/1yJl6SDEwUBv6uBkO5hc+JLdak0EDeYmt/8m/RU+UN/oLbcwI6cjKyyQ/VyO2tkCpNr+9LXnAgAAA",
+      "name": "כריך קפרזה איטלקי",
+      "price": 52,
+      "desc": "ג'בטה מחמצת, פסטו, עלי רוקט, עגבנייה, מוצרלה, וקרם בלסמי מצומצם",
+      "category": "כריכים חלביים"
+    },
+    "s-c468aec855": {
+      "id": "s-c468aec855",
+      "widths": [
+        400,
+        700
+      ],
+      "aspect": 1.1236,
+      "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQBACdASoUABIAPu1ep06ppKMiMBgMATAdiWIArAAQ8CAaQkuBDJKS4GBKpsgA/up0G+w5UIgiwq1VCmoJqaC6/APeRKdk44UNDNaDHe8UGp/ndPozi411hIdHlF36ocdH7fRIiUAAAA==",
+      "name": "כריך סלט ביצים",
+      "price": 52,
+      "desc": "ג'בטה מחמצת, סלט ביצים, עלי רוקט, עגבנייה ומלפפון ירוק",
+      "category": "כריכים פרווה"
+    },
+    "s-243dd5c6dd": {
+      "id": "s-243dd5c6dd",
+      "widths": [
+        400,
+        700
+      ],
+      "aspect": 1.1236,
+      "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwBACdASoUABIAPu1arE2ppKSiMBgMATAdiWIAwoAQ7/4u7QLhs9W4bNvIUlts5gAA/upzvxCz9CKtUwF2fVUxZlR5y0f9BjijxipuTJkl11Kcu3KO8tKwZIhcuRTSe4wAAA==",
+      "name": "כריך סלט טונה",
+      "price": 52,
+      "desc": "ג'בטה מחמצת, סלט טונה, חסה, עגבנייה ובצל סגול",
+      "category": "כריכים פרווה"
+    }
   }
 }

@@ -17,3 +17,10 @@ _incoming/*/wolt/*
 !_incoming/*/wolt/manifest.json
 _incoming/*/google/*
 !_incoming/*/google/sources.json
+
+# PARKED, not abandoned. GitHub refuses a workflow file from an OAuth token
+# without the `workflow` scope, and that rejection blocks the whole push.
+# The file is written and ready at .github/workflows/deploy.yml. To land it:
+#   gh auth refresh -h github.com -u itayme26 -s workflow
+# then delete these three lines and commit .github/ normally.
+.github/

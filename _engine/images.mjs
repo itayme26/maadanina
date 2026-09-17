@@ -46,6 +46,23 @@ const SELECTION = [
 /** Product cutouts from the delivery listing — small, light-background cards. */
 const PRODUCT_WIDTHS = [240, 480];
 
+/** Sandwich photography from the 10bis listing — properly styled, so it gets
+ *  bigger sizes than the catalogue cutouts. The bottom strip carries that
+ *  platform's watermark and is cropped away. */
+const SANDWICH_WIDTHS = [400, 700, 1000];
+const SANDWICH_CROP = { left: 0, top: 0, width: 1, height: 0.89 };
+
+/** The delivery platform leaves its own formatting in the descriptions:
+ *  an empty "₪0 / 0 גר׳" price tail, stray separators, doubled spaces. */
+const tidyDesc = (s = '') =>
+  s
+    .replace(/[₪\s]*0\s*\/\s*0\s*(גר|גרם)['׳"״]?\.?/g, '')
+    .replace(/,\s*-\s*/g, ', ')
+    .replace(/\s{2,}/g, ' ')
+    .replace(/\s+([,.])/g, '$1')
+    .replace(/[\s,.]+$/, '')
+    .trim();
+
 async function emit(input, id, widths, focus, { square = false, crop = null } = {}) {
   const results = {};
   const base = sharp(input, { failOn: 'none' }).rotate(); // honour EXIF, then strip
@@ -132,6 +149,27 @@ async function main() {
     }
   }
   console.log(`  ✓ ${Object.keys(out.products).length} products`);
+
+  // Sandwiches: the shop's own prepared-food photography.
+  const tbPath = path.join(SRC, 'tenbis', 'manifest.json');
+  try {
+    const tb = JSON.parse(await readFile(tbPath, 'utf8'));
+    const sandwiches = tb.items.filter(
+      (i) => i.file && /^כריכ/.test(i.category || '') && i.name
+    );
+    console.log(`→ processing ${sandwiches.length} sandwiches`);
+    out.sandwiches = {};
+    for (const s of sandwiches) {
+      const id = 's-' + path.basename(s.file, '.jpg');
+      const info = await emit(path.join(ROOT, s.file), id, SANDWICH_WIDTHS, 'attention', {
+        crop: SANDWICH_CROP,
+      });
+      out.sandwiches[id] = { ...info, name: s.name, price: s.price, desc: tidyDesc(s.desc), category: s.category };
+    }
+    console.log(`  ✓ ${Object.keys(out.sandwiches).length} sandwiches`);
+  } catch (err) {
+    console.log(`  (no sandwich manifest: ${err.message})`);
+  }
 
   await writeFile(path.join(OUT, 'index.json'), JSON.stringify(out, null, 2), 'utf8');
   console.log(`\n✓ assets → ${path.relative(ROOT, OUT)}`);
